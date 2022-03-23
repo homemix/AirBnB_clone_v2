@@ -3,7 +3,7 @@
 
 apt-get -y install nginx
 mkdir -p /data/www
-echo "Holberton School for the win!" > index.html
+echo "Holberton School" > index.html
 echo "Ceci n'est pas une page it's a 404!" > 404.html
 cp index.html /data/www/
 cp 404.html /data/www/
