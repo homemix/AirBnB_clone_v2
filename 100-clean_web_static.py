@@ -48,7 +48,7 @@ def do_deploy(archive_path):
 
 def deploy():
     """
-    The script should take the following steps:
+    The script  should take the following steps:
     Call the do_pack() function and store the path of the created archive
     Return False if no archive has been created
     Call the do_deploy(archive_path) function,
