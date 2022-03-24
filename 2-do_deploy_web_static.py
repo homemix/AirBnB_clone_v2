@@ -14,7 +14,6 @@ def do_deploy(archive_path):
     try:
         print('try')
         upload = put(archive_path, "/tmp/")
-        run(archive_path, "/tmp/")
         n = archive_path[20:-4]
         run("sudo mkdir -p /data/web_static/releases/web_static_{}/".format(n))
         run("sudo tar -xzf /tmp/web_static_{}.tgz -C "
