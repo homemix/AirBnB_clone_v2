@@ -48,7 +48,8 @@ def number_template(n):
 def number_odd_or_even(n):
     """ Number route """
     status = "even" if n % 2 == 0 else "odd"
-    return render_template('6-number_odd_or_even.html', number=n, status=status)
+    return render_template('6-number_odd_or_even.html',
+                           number=n, status=status)
 
 
 if __name__ == '__main__':
